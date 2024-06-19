@@ -1,0 +1,156 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    margin: 0px;
+    background-image: url(../images/jxbackground.png);
+    width: 1484px;
+}/*body中设定整体格式，固定好宽高*/
+header{
+    height: 110px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.656);
+}/*为背景颜色添加一定的透明度，增加美观性*/
+header img#2024{
+    float: left;
+} /*将2024的图片放到页眉区最左端*/
+header img#tianqi{
+    float: right;
+}/*将卡通太阳放到页眉区右端*/
+a{
+    text-decoration: none;
+    color: #fff;
+}  /*设置超链接的形式，去掉下划线，并且颜色为白色*/
+header ul {
+    margin-top: 0px;
+}
+header ul li {
+	display: inline;/*设置导航栏的形式为inline，好使他们在同一排*/
+    vertical-align: 120%;
+	padding: 30px 40px 30px 40px;
+    margin-left: 40px;/*改变每一个之间的间距*/
+    font-weight: bold;
+    font-size: 250%;
+}
+header ul li:hover{
+    background-color: rgb(186, 171, 171);
+}
+header ul li a:link, nav ul li a:visited {
+	color: #d3ead5;
+	border-bottom: none;
+	font-weight: bold;
+}
+header ul li.selected {
+	background-color: #751c1c;/*selected页面选择后，整块改变颜色*/
+}
+h2#xi{
+    /*采用绝对定位，让section部分的第一部分的标题精确落在图片下方*/
+    position: absolute;
+    top: 1450px;
+    left: 630px;
+    /*设置该段字体格式*/
+    font-size: 175%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+h2#du{
+    /*采用绝对定位，让section部分的第二部分的标题精确落在图片下方*/
+    position: absolute;
+    top: 1880px;
+    left: 630px;
+    /*设置该段字体格式*/
+    font-size: 175%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+section{
+    /*设置section的格式*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   background: rgba(0, 0, 0, 0.697);
+   /*使背景有一定的透明度*/
+}
+section h1{
+    /*设置该段字体格式*/
+    font-size: 250%;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+    margin:0px;/*让标题和下方没有边距*/
+}
+section ul{
+    /*设置该段格式为flex，并且隐藏溢出*/
+    display: flex;
+    height: 300px;
+    /*设置该段高度*/
+    overflow: hidden;
+    padding: 60px;
+    margin-bottom: 0px;
+}
+section ul li {
+    /*设置每一部分的高度宽度*/
+    width: 160px;
+    height: 450px;
+    transition: all 1s;/*每次延展为一秒的时间*/
+}
+section ul li#img{
+    height: 450px;
+}/*设置图片高度*/
+section ul:hover li{
+   width: 70px;
+   /*在没有点击图片时出来的宽度为70px*/
+}
+section ul li:hover{
+    width: 600px;
+    /*点击图片时，图片宽度为600px*/
+}
+h1#biao{
+    color: red;
+    font-size: 250%;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;/*将第一部分的标题居中*/
+}
+#table{
+    /*设置为表格格式*/
+    display: table;
+    border-spacing: 10px;/*设置表格中每一格之间距离为10px*/
+    margin: 0px 0px 0px 197px ;
+    background-color: rgba(0, 0, 0, 0.473);
+    /*设置背景*/
+}
+#tablerow{
+    display: table-row;
+    /*设置为表格的行*/
+}
+#animal{
+    display: table-cell;
+    text-align: center;
+    width: 350px;
+    height: 700px;
+    /*设置为表格格子，设置高宽，并且内容在这个格子居中*/
+    border-radius: 15px;
+    color:white;
+}
+#lake{
+    display: table-cell;
+    text-align: center;
+    width: 350px;
+    height: 700px;
+   /*设置为表格格子，设置高宽，并且内容在这个格子居中*/
+    border-radius: 15px;
+    color: white;
+}
+
+#mountain
+{
+    display: table-cell;
+    text-align: center;
+    width: 350px;
+    height: 700px;
+     /*设置为表格格子，设置高宽，并且内容在这个格子居中*/
+    border-radius: 15px;
+    color: white;
+}

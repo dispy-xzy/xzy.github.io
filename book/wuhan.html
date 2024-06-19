@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/wuhan.css">
+</head>
+ 
+<body>
+  <header>
+    <ul><!--ul的内容为2024，旅游日记，以及一个卡通太阳图片-->
+    <img id="2024" src="images/true1-cutout.png" alt="">
+    <img id="head"  src="images/luxing-cutout.png" alt="luxing">  
+    <img id="tianqi" src="images/tianqi-cutout.png" alt="tianqi">
+    <!--li的内容则为链接其他网页，分为主页，武汉，江西，青海，在哪个主页便将主页设为类selected-->
+		<li ><a href="index.html">主页</a></li>
+		<li class="selected"><a href="wuhan.html">武汉</a></li>
+		<li ><a href="jiangxi.html">江西</a></li>
+		<li ><a href="qinghai.html">青海</a></li>
+	  </ul>
+  </header> 
+  <!--页眉区将页眉和导航栏合并到一起-->
+
+  <!--表单，咨询表主要咨询与武汉相关的事情-->
+   <form action="">
+    <h1>咨询</h1>
+    <div class="tableRow">
+      <p>
+            武汉你最想去的景点
+      </p>
+      <p>
+              <select name="beans">
+                <option value="黄鹤楼">黄鹤楼</option>
+                <option value="东湖风景区">东湖风景区</option>
+                <option value="户部巷">户部巷</option>
+                <option value="辛亥革命纪念馆">辛亥革命纪念馆</option>
+              </select><!--四个选项-->
+      </p>
+    </div>
+    <div class="tableRow">
+      <p> 主要侧重点: </p>
+      <p>
+              <input type="radio" name="beantype" value="whole"> 文化人文 <br>
+              <input type="radio" name="beantype" value="ground" checked> 
+              自然风景
+      </p>
+    </div>
+    <div class="tableRow">
+      <p> 曾经来过武汉几次: </p>
+      <p> <input type="number" name="bags" min="0" max="10"> </p>
+    </div>
+    <div class="tableRow">
+      <p> 旅游其他要求: </p>
+      <p>
+              <input type="checkbox" name="extras[]" value="giftwrap"> 特色美食<br>
+              <input type="checkbox" name="extras[]" value="catalog" checked>
+              传统艺术
+      </p>
+    </div>
+    <div class="tableRow"><!--列出几行，每一行为标题以及回答-->
+      <p class="heading">城市文化</p>
+    </div>
+    <div class="tableRow">
+      <p> 别称: </p>
+      <p> <input type="text" name="name" value="" placeholder="九省通衢" required> </p>
+    </div>
+    <div class="tableRow">
+      <p> 地处: </p>
+      <p> <input type="text" name="address" value="" placeholder="湖北省" required> </p>
+    </div>
+    <div class="tableRow">
+      <p> 著名历史事件: </p>
+      <p> <input type="text" name="city" value="" placeholder="武昌起义" required> </p>
+    </div>
+    <div class="tableRow">
+      <p> 著名高校： </p>
+      <p> <input type="text" name="state" value="" placeholder="武汉大学" required> </p>
+    </div>
+    <div class="tableRow">
+      <p> 武汉著名企业: </p>
+      <p> <input type="text" name="zip" value="" placeholder="华为，小米" required> </p>
+    </div>
+    <div class="tableRow">
+      <p> 具体介绍: </p>
+      <p>
+              <textarea name="comments" placeholder="武汉市，简称“汉”，别称江城，湖北省辖地级市、省会，副省级市、超大城市 、国家中心城市 ，国务院批复确定的中国中部地区的中心城市，全国重要的工业基地、科教基地和综合交通枢纽 ，中国人民解放军联勤保障部队机关驻地 。全市辖13个区，总面积8569.15平方千米。截至2023年末，常住人口1377.40万人，全年地区生产总值20011.65亿元。 武汉市地处江汉平原东部、长江中游，长江及其最大支流汉水在此交汇，形成武汉三镇（武昌、汉口、汉阳）隔江鼎立的格局，市内江河纵横、湖港交织，水域面积占全市总面四分之一，被评为国际湿地城市。作为中国经济地理中心，武汉素有“九省通衢”之称，是中国内陆最大的水陆空交通枢纽、长江中游航运中心，其高铁网辐射大半个中国，可直航全球五大洲。 武汉市是长江经济带核心城市、中部崛起战略支点、全面创新改革试验区，中国光谷致力打造具有全球影响力的创新创业中心。根据国家发改委要求，武汉正加快建成以全国经济中心、高水平科技创新中心、商贸物流中心和国际交往中心四大功能为支撑的国家中心城市。 武汉市是国家历史文化名城、楚文化的重要发祥地。春秋战国以来，一直是中国南方的军事和商业重镇，元代成为湖广行省省治，明清时期被誉为“楚中第一繁盛处”和“天下四聚”之一。清末汉口开埠和洋务运动开启武汉现代化进程，使其成为近代中国重要的经济中心。武汉是辛亥革命首义之地，近代史上数度成为全国政治、军事、文化中心"></textarea>
+      </p>
+    </div>
+   </form>
+  <!--表格三行两列-->
+   <table>
+     <caption></caption>
+     <tr>
+      <th><img class="pic" src="../book/images/wuhan/DSC_0808.JPG" alt=""><p>黄鹤楼</p></th>
+      <th><img class="pic" src="../book/images/wuhan/wuhan1.webp" alt=""><p>户部巷</p></th>
+     </tr><!--第一行两列-->
+     <tr>
+      <th><img class="pic" src="../book/images/wuhan/donghu.jpg" alt=""><p>东湖</p></th>
+      <th><img class="pic" src="../book/images/wuhan/nanhu.webp" alt=""><p>南湖</p></th>
+     </tr><!--第二行两列-->
+     <tr>
+      <th><img class="pic" src="../book/images/wuhan/DSC_0843.JPG" alt=""><p>中共五大会址</p></th>
+      <th><img class="pic" src="../book/images/wuhan/DSC_0838.JPG" alt=""><p>辛亥革命纪念馆</p></th>
+     </tr><!--第三行两列-->
+   </table>
+   <section><!--seciton为第三部分-->
+      <ul>
+        <h1>在武汉的日常</h1>
+        <li><img class="heng" src="../book/images/wuhan/DSC_0293.JPG" alt=""></li>
+        <li><img class="shu" src="../book/images/wuhan/DSC_0273.JPG" alt=""></li>
+        <li><img class="heng" src="../book/images/wuhan/DSC_0277.JPG" alt=""></li>
+        <li><img class="shu" src="../book/images/wuhan/DSC_0292.JPG" alt=""></li>
+        <li><img class="heng" src="../book/images/wuhan/DSC_0302.JPG" alt=""></li>
+      </ul>
+   </section>
+   
+ </body>
+  
+
+ </html>

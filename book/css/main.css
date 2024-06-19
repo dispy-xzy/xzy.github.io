@@ -1,0 +1,107 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    margin: 0px;
+    background-image: url(../images/jxbackground.png);
+    background-size: cover;/*使背景图片更好适应整个页面*/
+    width: 1484px;
+    height: 1080px;
+    /*body中设定整体格式，固定好宽高*/
+}
+header{
+    height: 110px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.656);
+     /*为背景颜色添加一定的透明度，增加美观性*/
+
+}
+header img#2024{
+    float: left;
+     /*将2024的图片放到页眉区最左端*/
+}
+header img#tianqi{
+    float: right;
+     /*将卡通太阳放到页眉区右端*/
+}
+a{
+    text-decoration: none;
+    color:#fff;
+     /*设置超链接的形式，去掉下划线，并且颜色为白色*/
+}
+header ul {
+    margin-top: 0px;
+}
+header ul li {
+	display: inline;/*设置导航栏的形式为inline，好使他们在同一排*/
+    vertical-align: 120%;
+    padding:30px 40px 30px 40px;
+    margin-left: 40px;
+    /*改变每一个之间的间距*/
+    font-weight: bold;
+    font-size: 250%;
+}
+header ul li:hover{
+    background-color: rgb(186, 171, 171);
+}
+header ul li a:link, nav ul li a:visited {
+	color: #d3ead5;
+	border-bottom: none;
+	font-weight: bold;
+}
+header ul li.selected {
+	background-color: #751c1c;
+   /*selected页面选择后，整块改变颜色*/
+}
+section{
+    margin-top: 0px;
+}
+section img#xn{
+    position: absolute;
+    top: 210px;
+    left: 140px;/*绝对定位图片的位置*/
+
+}
+section img#wh{
+    position: absolute;
+    top:800px;
+    left:280px ;/*绝对定位图片的位置*/
+}
+section img#wy{
+    position: absolute;
+    top: 470px;
+    right: 140px;/*绝对定位图片的位置*/
+}
+section img#map{
+    height: 800px;
+    width: 1000px;
+    position: absolute;
+    top: 200px;
+    left: 200px;/*绝对定位图片的位置，改变中国地图图片的大小，让其适应整个页面*/
+}
+#x{
+    font-weight: bold;
+    font-size: 150%;
+    font-style: italic;/*修改字体的样式*/
+
+    position: absolute;
+    top: 210px;
+    left: 140px;/*绝对定位段落的位置*/
+}
+#w{
+    font-weight: bold;
+    font-size: 150%;
+    font-style: italic;/*修改字体的样式*/
+
+    position: absolute;
+    top:800px;
+    left:280px;/*绝对定位段落的位置*/
+}
+#y{
+    font-weight: bold;
+    font-size: 150%;
+    font-style: italic;/*修改字体的样式*/
+   
+    position: absolute;
+    top: 470px;
+    right: 180px;/*绝对定位段落的位置*/
+}

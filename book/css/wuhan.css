@@ -1,0 +1,133 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    margin: 0px;     
+    background-image: url(../images/jxbackground.png);
+    width: 1484px;/*body中设定整体格式，固定好宽高*/
+}
+header{
+    height: 110px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.656);
+    /*为背景颜色添加一定的透明度，增加美观性*/
+}
+header img#2024{
+    float: left;
+     /*将2024的图片放到页眉区最左端*/
+}
+header img#tianqi{
+    float: right;
+     /*将卡通太阳放到页眉区右端*/
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    /*设置超链接的形式，去掉下划线，并且颜色为白色*/
+}
+header ul {
+    margin-top: 0px;
+}
+header ul li {
+	display: inline;/*设置导航栏的形式为inline，好使他们在同一排*/
+    vertical-align: 120%;
+	padding: 30px 40px 30px 40px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 250%;
+}
+header ul li:hover{
+    background-color: rgb(186, 171, 171);
+}
+header ul li a:link, nav ul li a:visited {
+	color: #d3ead5;
+	border-bottom: none;
+	font-weight: bold;
+}
+header ul li.selected {
+	background-color: #751c1c;/*selected页面选择后，整块改变颜色*/
+}
+
+table{
+    margin: 20px 0px 10px 50px;
+    border: thin soild black;/*设置表格的边距和边框*/
+    font-size: 250%;
+    color: rgb(189, 118, 24);
+    caption-side: top;
+    border-spacing: 10px;/*每个格子之间的边距为10px*/
+   
+}
+tr{
+    height: 350px;
+    text-align: center;
+    vertical-align:middle;
+    /*每一行的高度，并且每一行中的内容在相应的格式中水平居中垂直也居中*/
+}
+th{
+    width: 400px;
+    padding-top: 20px;/*每一个格子的大小*/
+    border: 2px solid black;/*设置格子的边框*/
+    background-color: rgba(194, 146, 181, 0.396);
+    /*背景颜色*/
+}
+img.pic{
+  width: 180px;
+  height: 250px;/*设置图片的大小*/
+}
+form {
+	display: table;
+	padding: 10px;
+	border: thin dotted #7a3737;
+    
+    padding-right: 30px;
+	background-color:rgba(194, 146, 181, 0.396);
+    width: 500px;
+    height: 1000px;
+    float: left;/*浮动到左边*/
+    margin: 25px 75px 0px 10px;/*设置边距*/
+}
+
+form textarea {
+	width: 500px;
+	height: 200px;
+}
+
+div.tableRow {
+	display: table-row;/*为行格式*/
+}
+
+div.tableRow p {
+	vertical-align: top;
+	padding: 2px;
+}
+p.heading {
+	font-weight: bold;
+}
+section{
+    color:black;
+    margin-bottom: 0px; /*设置section中内容颜色*/
+   
+}
+section ul{
+    display: flex;/*设置格式为flex，使得可以横排排列*/
+    background:rgba(194, 146, 181, 0.396);
+    height: 300px;
+}
+section ul li{
+    text-align: center;
+    margin-right: 25px ;
+    
+}
+section ul  h1{
+    writing-mode: vertical-rl;/*将字体设置为竖状排列*/
+   text-align: center;
+    font-size: 250%;
+    margin-right: 30px;
+}
+section ul li img.heng{
+    height: 200px;
+    margin-top: 50px;/*设置图片大小*/
+}
+img.shu{
+    height: 250px;
+    margin-top: 27px;/*设置图片大小*/
+}

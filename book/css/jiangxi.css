@@ -1,0 +1,251 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    margin: 0px;
+    background-image: url(../images/jxbackground.png);
+    width: 1484px;
+    /*body中设定整体格式，固定好宽高*/
+}
+header{
+    height: 110px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.656);
+}/*为背景颜色添加一定的透明度，增加美观性*/
+
+header img#2024{
+    float: left; /*将2024的图片放到页眉区最左端*/
+}
+header img#tianqi{
+    float: right;/*将卡通太阳放到页眉区右端*/
+}
+a{
+    text-decoration: none;
+    color: #fff;/*设置超链接的形式，去掉下划线，并且颜色为白色*/
+}
+header ul {
+    margin-top: 0px;
+}
+header ul li {
+	display: inline;
+    /*设置导航栏的形式为inline，好使他们在同一排*/
+    vertical-align: 120%;
+	padding: 30px 40px 30px 40px;
+    margin-left: 40px;
+    /*改变每一个之间的间距*/
+    font-weight: bold;
+    font-size: 250%;
+}
+header ul li:hover{
+    background-color: rgb(186, 171, 171);
+}
+header ul li a:link, nav ul li a:visited {
+	color: #d3ead5;
+	border-bottom: none;
+	font-weight: bold;
+}
+header ul li.selected {
+	background-color: #751c1c;
+    /*selected页面选择后，整块改变颜色*/
+}
+#first{/*第一块*/
+    height: 500px;
+    width: 350px;/*设置宽高*/
+    border: 5px dashed rgba(255, 192, 203, 0.425);
+    border-radius: 100px;/*设置边框，并且增加边框的弯曲度*/
+    text-align: center;
+    color: white;
+    
+}
+#first img.yl{
+    width: 300px;
+    height: 200px;/*第一块图片的大小*/
+}
+img#wayone{
+    width: 150px;
+    height: 63px;/*设置图片大小*/
+
+    position: absolute;
+    top: 330px;
+    left: 370px ;
+    /*绝对定位其位置*/
+}
+#second{
+    height: 350px;
+    width: 500px;/*设置第二块大小*/
+    border: 5px dashed rgba(255, 192, 203, 0.425);
+    border-radius: 100px;/*设置边框*/
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    top:  200px ;
+    left: 520px;
+    /*绝对定位其位置*/
+}
+#second img.town{
+    width: 200px;
+    height: 250px;
+    margin:0px 10px 0px 10px;
+}
+img#waytow{
+    width: 250px;
+    height: 115px;
+    /*绝对定位其位置*/
+    position: absolute;
+    top:560px ;
+    left: 800px;
+}
+#third{
+    height: 360px;
+    width: 500px; /*设置第三块大小*/
+    border: 5px dashed rgba(255, 192, 203, 0.425);
+    border-radius: 100px; /*设置边框*/
+    text-align: center;
+    color: white;
+
+    position: absolute;
+    right: 70px;
+    top: 670px;
+    /*绝对定位其位置*/
+}
+#third img.water{
+    width: 200px;
+    height: 255px;/*设置图片大小*/
+    margin:0px 10px 0px 10px;
+}
+img#waythree{
+    width: 300px;
+    height: 150px;
+    /*设置图片大小*/
+
+    position: absolute;
+    top:780px ;
+    left: 670px;
+    /*绝对定位其位置*/
+}
+#fourth{
+    height: 500px;
+    width: 350px;
+    border: 5px dashed rgba(255, 192, 203, 0.425);
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+/*绝对定位其位置*/
+   position: absolute;
+   top: 770px;
+   left: 380px;
+}
+#fourth img.wuy{
+    width: 300px;
+    height: 200px;
+}
+img#wayfour{
+    width: 300px;
+    height: 110px;
+    /*绝对定位其位置*/
+    position: absolute;
+    top: 1277px;
+    left: 320px;
+}
+#fifth{
+    height: 900px;
+    width: 500px;/*设置第五块大小*/
+    border: 5px dashed rgba(255, 192, 203, 0.425);
+    border-radius: 100px;/*设置边框*/
+    text-align: center;
+    color: white;
+/*绝对定位其位置*/
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+}
+#fifth img.huang{
+   height: 255px;
+   width: 200px;/*设置图片大小*/
+   margin:0px 10px 10px 10px;
+}
+#fifth img.lin{
+    height: 270px;
+    width: 420px;/*设置图片大小*/
+}
+img#wayfif{
+    width: 250px;
+    height: 95px;/*设置图片大小*/
+    /*绝对定位其位置*/
+    position: absolute;
+    top: 1450px;
+    left: 605px;
+}
+#sixth{
+    height: 360px;
+    width: 500px;/*设置第六块大小*/
+    border: 5px dashed rgba(255, 192, 203, 0.425);
+    border-radius: 100px;/*设置边框*/
+    text-align: center;
+    color: white;
+   /*绝对定位其位置*/
+    position: absolute;
+    top: 1300px;
+    right: 115px;
+}
+#sixth img.room{
+    width: 200px;
+    height: 250px;/*设置图片大小*/
+    margin:0px 10px 0px 10px;/*设置图片之间的距离*/
+}
+img#waysix{
+    width: 160px;
+    height: 190px;/*设置图片大小*/
+    /*绝对定位其位置*/
+    position: absolute;
+    top: 1650px;
+    right: 270px ;
+}
+#seventh{
+    height: 700px;
+    width: 500px;/*设置第七块大小*/
+    border: 5px dashed rgba(255, 192, 203, 0.425);
+    border-radius: 100px;/*设置边框*/
+    text-align: center;
+    color: white;
+    /*绝对定位其位置*/
+    position: absolute;
+    top: 1830px;
+    right: 10px
+}
+#seventh img.culture{
+    height: 200px;
+    width: 350px;/*设置图片大小*/
+    margin-bottom: 10px;/*调整位置*/
+}
+#eighth{
+    height: 200px;
+    width: auto;
+    color: rgb(188, 44, 0);
+    padding-left: 30px;
+    border-left: 4px dashed rgb(221, 76, 76);/*添加左边框，设置字体颜色*/
+  /*绝对定位其位置*/
+    position: absolute;
+    top: 2400px;
+    left: 270px;
+}
+#ninth{
+    color: rgb(18, 66, 143);
+    border-right:4px dashed rgb(221, 76, 76) ;/*添加右边框，设置字体颜色*/
+    padding-right: 10px;
+    
+    /*绝对定位其位置*/
+    position: absolute;
+    top: 250px;
+    right: 100px;
+}
+#tenth{
+    color: rgb(156, 19, 194);
+    border-left:4px dashed rgb(221, 76, 76) ;
+   padding-left: 20px;
+    /*添加左边框，设置字体颜色，稍稍用padding修改位置*/
+    position: absolute;
+    top: 900px;
+    left: 10px;
+    /*绝对定位其位置*/
+}
